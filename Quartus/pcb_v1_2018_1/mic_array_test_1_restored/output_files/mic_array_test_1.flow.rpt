@@ -1,0 +1,185 @@
+Flow report for mic_array_test_1
+Mon Oct 01 15:46:51 2018
+Quartus II 64-Bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Full Version
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Flow Summary
+  3. Flow Settings
+  4. Flow Non-Default Global Settings
+  5. Flow Elapsed Time
+  6. Flow OS Summary
+  7. Flow Log
+  8. Flow Messages
+  9. Flow Suppressed Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 1991-2013 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+
+
+
++---------------------------------------------------------------------------------------+
+; Flow Summary                                                                          ;
++------------------------------------+--------------------------------------------------+
+; Flow Status                        ; Successful - Mon Oct 01 15:46:43 2018            ;
+; Quartus II 64-Bit Version          ; 13.0.1 Build 232 06/12/2013 SP 1 SJ Full Version ;
+; Revision Name                      ; mic_array_test_1                                 ;
+; Top-level Entity Name              ; mic_array_test_1                                 ;
+; Family                             ; Cyclone II                                       ;
+; Device                             ; EP2C35F672C6                                     ;
+; Timing Models                      ; Final                                            ;
+; Total logic elements               ; 10,306 / 33,216 ( 31 % )                         ;
+;     Total combinational functions  ; 5,879 / 33,216 ( 18 % )                          ;
+;     Dedicated logic registers      ; 8,996 / 33,216 ( 27 % )                          ;
+; Total registers                    ; 8996                                             ;
+; Total pins                         ; 143 / 475 ( 30 % )                               ;
+; Total virtual pins                 ; 0                                                ;
+; Total memory bits                  ; 460,800 / 483,840 ( 95 % )                       ;
+; Embedded Multiplier 9-bit elements ; 0 / 70 ( 0 % )                                   ;
+; Total PLLs                         ; 0 / 4 ( 0 % )                                    ;
++------------------------------------+--------------------------------------------------+
+
+
++-----------------------------------------+
+; Flow Settings                           ;
++-------------------+---------------------+
+; Option            ; Setting             ;
++-------------------+---------------------+
+; Start date & time ; 10/01/2018 15:44:29 ;
+; Main task         ; Compilation         ;
+; Revision Name     ; mic_array_test_1    ;
++-------------------+---------------------+
+
+
++-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Flow Non-Default Global Settings                                                                                                                                                                                                                                      ;
++-------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+---------------+-------------+------------------+
+; Assignment Name                     ; Value                                                                                                                                                                          ; Default Value ; Entity Name ; Section Id       ;
++-------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+---------------+-------------+------------------+
+; COMPILER_SIGNATURE_ID               ; 66325072377864.153837266610380                                                                                                                                                 ; --            ; --          ; --               ;
+; ENABLE_SIGNALTAP                    ; On                                                                                                                                                                             ; --            ; --          ; --               ;
+; IP_TOOL_NAME                        ; CIC                                                                                                                                                                            ; --            ; --          ; --               ;
+; IP_TOOL_VERSION                     ; 13.0                                                                                                                                                                           ; --            ; --          ; --               ;
+; MAX_CORE_JUNCTION_TEMP              ; 85                                                                                                                                                                             ; --            ; --          ; --               ;
+; MIN_CORE_JUNCTION_TEMP              ; 0                                                                                                                                                                              ; --            ; --          ; --               ;
+; MISC_FILE                           ; output_files/cic-library/auk_dspip_avalon_streaming_block_sink_cic_130.vhd                                                                                                     ; --            ; --          ; --               ;
+; MISC_FILE                           ; output_files/cic-library/auk_dspip_avalon_streaming_block_sink_fftfprvs_cic_130.vhd                                                                                            ; --            ; --          ; --               ;
+; MISC_FILE                           ; output_files/cic-library/auk_dspip_avalon_streaming_block_source_cic_130.vhd                                                                                                   ; --            ; --          ; --               ;
+; MISC_FILE                           ; output_files/cic-library/auk_dspip_avalon_streaming_controller_cic_130.vhd                                                                                                     ; --            ; --          ; --               ;
+; MISC_FILE                           ; output_files/cic-library/auk_dspip_avalon_streaming_controller_pe_cic_130.vhd                                                                                                  ; --            ; --          ; --               ;
+; MISC_FILE                           ; output_files/cic-library/auk_dspip_avalon_streaming_sink_cic_130.vhd                                                                                                           ; --            ; --          ; --               ;
+; MISC_FILE                           ; output_files/cic-library/auk_dspip_avalon_streaming_source_cic_130.vhd                                                                                                         ; --            ; --          ; --               ;
+; MISC_FILE                           ; output_files/cic-library/auk_dspip_cic_lib_pkg_cic_130.vhd                                                                                                                     ; --            ; --          ; --               ;
+; MISC_FILE                           ; output_files/cic-library/auk_dspip_delay_cic_130.vhd                                                                                                                           ; --            ; --          ; --               ;
+; MISC_FILE                           ; output_files/cic-library/auk_dspip_differentiator_cic_130.vhd                                                                                                                  ; --            ; --          ; --               ;
+; MISC_FILE                           ; output_files/cic-library/auk_dspip_downsample_cic_130.vhd                                                                                                                      ; --            ; --          ; --               ;
+; MISC_FILE                           ; output_files/cic-library/auk_dspip_fastaddsub_cic_130.vhd                                                                                                                      ; --            ; --          ; --               ;
+; MISC_FILE                           ; output_files/cic-library/auk_dspip_fastadd_cic_130.vhd                                                                                                                         ; --            ; --          ; --               ;
+; MISC_FILE                           ; output_files/cic-library/auk_dspip_integrator_cic_130.vhd                                                                                                                      ; --            ; --          ; --               ;
+; MISC_FILE                           ; output_files/cic-library/auk_dspip_lib_pkg_cic_130.vhd                                                                                                                         ; --            ; --          ; --               ;
+; MISC_FILE                           ; output_files/cic-library/auk_dspip_math_pkg_cic_130.vhd                                                                                                                        ; --            ; --          ; --               ;
+; MISC_FILE                           ; output_files/cic-library/auk_dspip_pipelined_adder_cic_130.vhd                                                                                                                 ; --            ; --          ; --               ;
+; MISC_FILE                           ; output_files/cic-library/auk_dspip_roundsat_cic_130.vhd                                                                                                                        ; --            ; --          ; --               ;
+; MISC_FILE                           ; output_files/cic-library/auk_dspip_text_pkg_cic_130.vhd                                                                                                                        ; --            ; --          ; --               ;
+; MISC_FILE                           ; output_files/cic-library/auk_dspip_upsample_cic_130.vhd                                                                                                                        ; --            ; --          ; --               ;
+; MISC_FILE                           ; output_files/cic-library/auk_dspip_variable_downsample_cic_130.vhd                                                                                                             ; --            ; --          ; --               ;
+; MISC_FILE                           ; output_files/cic_filter_cic.vhd                                                                                                                                                ; --            ; --          ; --               ;
+; MISC_FILE                           ; output_files/cic_filter_quartus.tcl                                                                                                                                            ; --            ; --          ; --               ;
+; MISC_FILE                           ; output_files/cic_filter_fir_comp_coeff.m                                                                                                                                       ; --            ; --          ; --               ;
+; MISC_FILE                           ; output_files/cic_filter_input.txt                                                                                                                                              ; --            ; --          ; --               ;
+; MISC_FILE                           ; output_files/cic_filter_nativelink.tcl                                                                                                                                         ; --            ; --          ; --               ;
+; MISC_FILE                           ; output_files/cic_filter_tb.v                                                                                                                                                   ; --            ; --          ; --               ;
+; MISC_FILE                           ; output_files/cic_filter.v                                                                                                                                                      ; --            ; --          ; --               ;
+; MISC_FILE                           ; output_files/cic_filter.bsf                                                                                                                                                    ; --            ; --          ; --               ;
+; MISC_FILE                           ; output_files/cic_filter.qip                                                                                                                                                    ; --            ; --          ; --               ;
+; MISC_FILE                           ; output_files/cic_filter.html                                                                                                                                                   ; --            ; --          ; --               ;
+; PARTITION_COLOR                     ; 16764057                                                                                                                                                                       ; --            ; --          ; Top              ;
+; PARTITION_FITTER_PRESERVATION_LEVEL ; PLACEMENT_AND_ROUTING                                                                                                                                                          ; --            ; --          ; Top              ;
+; PARTITION_NETLIST_TYPE              ; SOURCE                                                                                                                                                                         ; --            ; --          ; Top              ;
+; PROJECT_OUTPUT_DIRECTORY            ; output_files                                                                                                                                                                   ; --            ; --          ; --               ;
+; SEARCH_PATH                         ; output_files/                                                                                                                                                                  ; --            ; --          ; --               ;
+; SEARCH_PATH                         ; output_files/cic-library/                                                                                                                                                      ; --            ; --          ; --               ;
+; SEARCH_PATH                         ; output_files/.                                                                                                                                                                 ; --            ; --          ; --               ;
+; SEARCH_PATH                         ; output_files/cic-library                                                                                                                                                       ; --            ; --          ; --               ;
+; SLD_FILE                            ; //ad.monash.edu/home/User037/rzou3/Documents/2018 S2/ECE4094 - FYP/Code Documents/Quartus/pcb_v1_2018_1/mic_array_test_1_restored/output_files/stp4_tutorial_auto_stripped.stp ; --            ; --          ; --               ;
+; SLD_NODE_CREATOR_ID                 ; 110                                                                                                                                                                            ; --            ; --          ; auto_signaltap_0 ;
+; SLD_NODE_ENTITY_NAME                ; sld_signaltap                                                                                                                                                                  ; --            ; --          ; auto_signaltap_0 ;
+; SLD_NODE_PARAMETER_ASSIGNMENT       ; SLD_NODE_INFO=805334528                                                                                                                                                        ; --            ; --          ; auto_signaltap_0 ;
+; SLD_NODE_PARAMETER_ASSIGNMENT       ; SLD_POWER_UP_TRIGGER=0                                                                                                                                                         ; --            ; --          ; auto_signaltap_0 ;
+; SLD_NODE_PARAMETER_ASSIGNMENT       ; SLD_STORAGE_QUALIFIER_INVERSION_MASK_LENGTH=0                                                                                                                                  ; --            ; --          ; auto_signaltap_0 ;
+; SLD_NODE_PARAMETER_ASSIGNMENT       ; SLD_ATTRIBUTE_MEM_MODE=OFF                                                                                                                                                     ; --            ; --          ; auto_signaltap_0 ;
+; SLD_NODE_PARAMETER_ASSIGNMENT       ; SLD_STATE_FLOW_USE_GENERATED=0                                                                                                                                                 ; --            ; --          ; auto_signaltap_0 ;
+; SLD_NODE_PARAMETER_ASSIGNMENT       ; SLD_STATE_BITS=11                                                                                                                                                              ; --            ; --          ; auto_signaltap_0 ;
+; SLD_NODE_PARAMETER_ASSIGNMENT       ; SLD_BUFFER_FULL_STOP=1                                                                                                                                                         ; --            ; --          ; auto_signaltap_0 ;
+; SLD_NODE_PARAMETER_ASSIGNMENT       ; SLD_CURRENT_RESOURCE_WIDTH=1                                                                                                                                                   ; --            ; --          ; auto_signaltap_0 ;
+; SLD_NODE_PARAMETER_ASSIGNMENT       ; SLD_TRIGGER_LEVEL=1                                                                                                                                                            ; --            ; --          ; auto_signaltap_0 ;
+; SLD_NODE_PARAMETER_ASSIGNMENT       ; SLD_TRIGGER_IN_ENABLED=0                                                                                                                                                       ; --            ; --          ; auto_signaltap_0 ;
+; SLD_NODE_PARAMETER_ASSIGNMENT       ; SLD_TRIGGER_LEVEL_PIPELINE=1                                                                                                                                                   ; --            ; --          ; auto_signaltap_0 ;
+; SLD_NODE_PARAMETER_ASSIGNMENT       ; SLD_ENABLE_ADVANCED_TRIGGER=1                                                                                                                                                  ; --            ; --          ; auto_signaltap_0 ;
+; SLD_NODE_PARAMETER_ASSIGNMENT       ; SLD_INVERSION_MASK=0000000000000000000000000                                                                                                                                   ; --            ; --          ; auto_signaltap_0 ;
+; SLD_NODE_PARAMETER_ASSIGNMENT       ; SLD_INVERSION_MASK_LENGTH=25                                                                                                                                                   ; --            ; --          ; auto_signaltap_0 ;
+; SLD_NODE_PARAMETER_ASSIGNMENT       ; SLD_SEGMENT_SIZE=2048                                                                                                                                                          ; --            ; --          ; auto_signaltap_0 ;
+; SLD_NODE_PARAMETER_ASSIGNMENT       ; SLD_SAMPLE_DEPTH=2048                                                                                                                                                          ; --            ; --          ; auto_signaltap_0 ;
+; SLD_NODE_PARAMETER_ASSIGNMENT       ; SLD_DATA_BITS=225                                                                                                                                                              ; --            ; --          ; auto_signaltap_0 ;
+; SLD_NODE_PARAMETER_ASSIGNMENT       ; SLD_TRIGGER_BITS=301                                                                                                                                                           ; --            ; --          ; auto_signaltap_0 ;
+; SLD_NODE_PARAMETER_ASSIGNMENT       ; SLD_NODE_CRC_HIWORD=38148                                                                                                                                                      ; --            ; --          ; auto_signaltap_0 ;
+; SLD_NODE_PARAMETER_ASSIGNMENT       ; SLD_ADVANCED_TRIGGER_ENTITY=sld_reserved_mic_array_test_1_auto_signaltap_0_1_a6c9,                                                                                             ; --            ; --          ; auto_signaltap_0 ;
+; SLD_NODE_PARAMETER_ASSIGNMENT       ; SLD_NODE_CRC_LOWORD=8005                                                                                                                                                       ; --            ; --          ; auto_signaltap_0 ;
+; USE_SIGNALTAP_FILE                  ; output_files/stp4_tutorial.stp                                                                                                                                                 ; --            ; --          ; --               ;
++-------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+---------------+-------------+------------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------------+
+; Flow Elapsed Time                                                                                                             ;
++---------------------------+--------------+-------------------------+---------------------+------------------------------------+
+; Module Name               ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
++---------------------------+--------------+-------------------------+---------------------+------------------------------------+
+; Analysis & Synthesis      ; 00:01:15     ; 1.0                     ; 4873 MB             ; 00:00:59                           ;
+; Fitter                    ; 00:00:31     ; 1.4                     ; 5502 MB             ; 00:00:40                           ;
+; Assembler                 ; 00:00:04     ; 1.0                     ; 4632 MB             ; 00:00:02                           ;
+; TimeQuest Timing Analyzer ; 00:00:06     ; 1.0                     ; 4769 MB             ; 00:00:03                           ;
+; Total                     ; 00:01:56     ; --                      ; --                  ; 00:01:44                           ;
++---------------------------+--------------+-------------------------+---------------------+------------------------------------+
+
+
++----------------------------------------------------------------------------------------+
+; Flow OS Summary                                                                        ;
++---------------------------+------------------+-----------+------------+----------------+
+; Module Name               ; Machine Hostname ; OS Name   ; OS Version ; Processor type ;
++---------------------------+------------------+-----------+------------+----------------+
+; Analysis & Synthesis      ; 035-110-002WL    ; Windows 7 ; 6.2        ; x86_64         ;
+; Fitter                    ; 035-110-002WL    ; Windows 7 ; 6.2        ; x86_64         ;
+; Assembler                 ; 035-110-002WL    ; Windows 7 ; 6.2        ; x86_64         ;
+; TimeQuest Timing Analyzer ; 035-110-002WL    ; Windows 7 ; 6.2        ; x86_64         ;
++---------------------------+------------------+-----------+------------+----------------+
+
+
+------------
+; Flow Log ;
+------------
+quartus_map --read_settings_files=on --write_settings_files=off mic_array_test_1 -c mic_array_test_1
+quartus_fit --read_settings_files=off --write_settings_files=off mic_array_test_1 -c mic_array_test_1
+quartus_asm --read_settings_files=off --write_settings_files=off mic_array_test_1 -c mic_array_test_1
+quartus_sta mic_array_test_1 -c mic_array_test_1
+
+
+

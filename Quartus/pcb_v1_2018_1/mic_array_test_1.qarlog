@@ -1,0 +1,71 @@
+Quartus II Archive log --	//ad.monash.edu/home/User037/rzou3/Documents/2018 S2/ECE4094 - FYP/Code Documents/Quartus/pcb_v1_2018_1/mic_array_test_1.qarlog
+
+Archive:	//ad.monash.edu/home/User037/rzou3/Documents/2018 S2/ECE4094 - FYP/Code Documents/Quartus/pcb_v1_2018_1/mic_array_test_1.qar
+Date:		Tue Sep 18 15:28:54 2018
+Quartus II 64-Bit		13.0.1 Build 232 06/12/2013 SP 1 SJ Full Version
+
+	=========== Files Selected: ===========
+//ad.monash.edu/home/User037/rzou3/Documents/2018 S2/ECE4094 - FYP/Code Documents/mic_array_test_15/mic_array_test_15_restored/FallingEdge_DFlipFlop.v
+//ad.monash.edu/home/User037/rzou3/Documents/2018 S2/ECE4094 - FYP/Code Documents/mic_array_test_15/mic_array_test_15_restored/RisingEdge_DFlipFlop.v
+//ad.monash.edu/home/User037/rzou3/Documents/2018 S2/ECE4094 - FYP/Code Documents/mic_array_test_15/mic_array_test_15_restored/assignment_defaults.qdf
+//ad.monash.edu/home/User037/rzou3/Documents/2018 S2/ECE4094 - FYP/Code Documents/mic_array_test_15/mic_array_test_15_restored/clk_40khz.v
+//ad.monash.edu/home/User037/rzou3/Documents/2018 S2/ECE4094 - FYP/Code Documents/mic_array_test_15/mic_array_test_15_restored/clk_div.v
+//ad.monash.edu/home/User037/rzou3/Documents/2018 S2/ECE4094 - FYP/Code Documents/mic_array_test_15/mic_array_test_15_restored/clk_div2.v
+//ad.monash.edu/home/User037/rzou3/Documents/2018 S2/ECE4094 - FYP/Code Documents/mic_array_test_15/mic_array_test_15_restored/hex_display_2dig.v
+//ad.monash.edu/home/User037/rzou3/Documents/2018 S2/ECE4094 - FYP/Code Documents/mic_array_test_15/mic_array_test_15_restored/incremental_db/compiled_partitions/mic_array_test_1.db_info
+//ad.monash.edu/home/User037/rzou3/Documents/2018 S2/ECE4094 - FYP/Code Documents/mic_array_test_15/mic_array_test_15_restored/mic_array_test_1.qpf
+//ad.monash.edu/home/User037/rzou3/Documents/2018 S2/ECE4094 - FYP/Code Documents/mic_array_test_15/mic_array_test_15_restored/mic_array_test_1.qsf
+//ad.monash.edu/home/User037/rzou3/Documents/2018 S2/ECE4094 - FYP/Code Documents/mic_array_test_15/mic_array_test_15_restored/mic_array_test_1.v
+//ad.monash.edu/home/User037/rzou3/Documents/2018 S2/ECE4094 - FYP/Code Documents/mic_array_test_15/mic_array_test_15_restored/mic_cicfilter_connection.v
+//ad.monash.edu/home/User037/rzou3/Documents/2018 S2/ECE4094 - FYP/Code Documents/mic_array_test_15/mic_array_test_15_restored/output_files/Chain2.cdf
+//ad.monash.edu/home/User037/rzou3/Documents/2018 S2/ECE4094 - FYP/Code Documents/mic_array_test_15/mic_array_test_15_restored/output_files/cic-library/auk_dspip_avalon_streaming_block_sink_cic_130.vhd
+//ad.monash.edu/home/User037/rzou3/Documents/2018 S2/ECE4094 - FYP/Code Documents/mic_array_test_15/mic_array_test_15_restored/output_files/cic-library/auk_dspip_avalon_streaming_block_sink_fftfprvs_cic_130.vhd
+//ad.monash.edu/home/User037/rzou3/Documents/2018 S2/ECE4094 - FYP/Code Documents/mic_array_test_15/mic_array_test_15_restored/output_files/cic-library/auk_dspip_avalon_streaming_block_source_cic_130.vhd
+//ad.monash.edu/home/User037/rzou3/Documents/2018 S2/ECE4094 - FYP/Code Documents/mic_array_test_15/mic_array_test_15_restored/output_files/cic-library/auk_dspip_avalon_streaming_controller_cic_130.vhd
+//ad.monash.edu/home/User037/rzou3/Documents/2018 S2/ECE4094 - FYP/Code Documents/mic_array_test_15/mic_array_test_15_restored/output_files/cic-library/auk_dspip_avalon_streaming_controller_pe_cic_130.vhd
+//ad.monash.edu/home/User037/rzou3/Documents/2018 S2/ECE4094 - FYP/Code Documents/mic_array_test_15/mic_array_test_15_restored/output_files/cic-library/auk_dspip_avalon_streaming_sink_cic_130.vhd
+//ad.monash.edu/home/User037/rzou3/Documents/2018 S2/ECE4094 - FYP/Code Documents/mic_array_test_15/mic_array_test_15_restored/output_files/cic-library/auk_dspip_avalon_streaming_source_cic_130.vhd
+//ad.monash.edu/home/User037/rzou3/Documents/2018 S2/ECE4094 - FYP/Code Documents/mic_array_test_15/mic_array_test_15_restored/output_files/cic-library/auk_dspip_cic_lib_pkg_cic_130.vhd
+//ad.monash.edu/home/User037/rzou3/Documents/2018 S2/ECE4094 - FYP/Code Documents/mic_array_test_15/mic_array_test_15_restored/output_files/cic-library/auk_dspip_delay_cic_130.vhd
+//ad.monash.edu/home/User037/rzou3/Documents/2018 S2/ECE4094 - FYP/Code Documents/mic_array_test_15/mic_array_test_15_restored/output_files/cic-library/auk_dspip_differentiator_cic_130.vhd
+//ad.monash.edu/home/User037/rzou3/Documents/2018 S2/ECE4094 - FYP/Code Documents/mic_array_test_15/mic_array_test_15_restored/output_files/cic-library/auk_dspip_downsample_cic_130.vhd
+//ad.monash.edu/home/User037/rzou3/Documents/2018 S2/ECE4094 - FYP/Code Documents/mic_array_test_15/mic_array_test_15_restored/output_files/cic-library/auk_dspip_fastadd_cic_130.vhd
+//ad.monash.edu/home/User037/rzou3/Documents/2018 S2/ECE4094 - FYP/Code Documents/mic_array_test_15/mic_array_test_15_restored/output_files/cic-library/auk_dspip_fastaddsub_cic_130.vhd
+//ad.monash.edu/home/User037/rzou3/Documents/2018 S2/ECE4094 - FYP/Code Documents/mic_array_test_15/mic_array_test_15_restored/output_files/cic-library/auk_dspip_integrator_cic_130.vhd
+//ad.monash.edu/home/User037/rzou3/Documents/2018 S2/ECE4094 - FYP/Code Documents/mic_array_test_15/mic_array_test_15_restored/output_files/cic-library/auk_dspip_lib_pkg_cic_130.vhd
+//ad.monash.edu/home/User037/rzou3/Documents/2018 S2/ECE4094 - FYP/Code Documents/mic_array_test_15/mic_array_test_15_restored/output_files/cic-library/auk_dspip_math_pkg_cic_130.vhd
+//ad.monash.edu/home/User037/rzou3/Documents/2018 S2/ECE4094 - FYP/Code Documents/mic_array_test_15/mic_array_test_15_restored/output_files/cic-library/auk_dspip_pipelined_adder_cic_130.vhd
+//ad.monash.edu/home/User037/rzou3/Documents/2018 S2/ECE4094 - FYP/Code Documents/mic_array_test_15/mic_array_test_15_restored/output_files/cic-library/auk_dspip_roundsat_cic_130.vhd
+//ad.monash.edu/home/User037/rzou3/Documents/2018 S2/ECE4094 - FYP/Code Documents/mic_array_test_15/mic_array_test_15_restored/output_files/cic-library/auk_dspip_text_pkg_cic_130.vhd
+//ad.monash.edu/home/User037/rzou3/Documents/2018 S2/ECE4094 - FYP/Code Documents/mic_array_test_15/mic_array_test_15_restored/output_files/cic-library/auk_dspip_upsample_cic_130.vhd
+//ad.monash.edu/home/User037/rzou3/Documents/2018 S2/ECE4094 - FYP/Code Documents/mic_array_test_15/mic_array_test_15_restored/output_files/cic-library/auk_dspip_variable_downsample_cic_130.vhd
+//ad.monash.edu/home/User037/rzou3/Documents/2018 S2/ECE4094 - FYP/Code Documents/mic_array_test_15/mic_array_test_15_restored/output_files/cic_filter.html
+//ad.monash.edu/home/User037/rzou3/Documents/2018 S2/ECE4094 - FYP/Code Documents/mic_array_test_15/mic_array_test_15_restored/output_files/cic_filter.qip
+//ad.monash.edu/home/User037/rzou3/Documents/2018 S2/ECE4094 - FYP/Code Documents/mic_array_test_15/mic_array_test_15_restored/output_files/cic_filter.v
+//ad.monash.edu/home/User037/rzou3/Documents/2018 S2/ECE4094 - FYP/Code Documents/mic_array_test_15/mic_array_test_15_restored/output_files/cic_filter_cic.ocp
+//ad.monash.edu/home/User037/rzou3/Documents/2018 S2/ECE4094 - FYP/Code Documents/mic_array_test_15/mic_array_test_15_restored/output_files/cic_filter_cic.vhd
+//ad.monash.edu/home/User037/rzou3/Documents/2018 S2/ECE4094 - FYP/Code Documents/mic_array_test_15/mic_array_test_15_restored/output_files/cic_filter_fir_comp_coeff.m
+//ad.monash.edu/home/User037/rzou3/Documents/2018 S2/ECE4094 - FYP/Code Documents/mic_array_test_15/mic_array_test_15_restored/output_files/cic_filter_nativelink.tcl
+//ad.monash.edu/home/User037/rzou3/Documents/2018 S2/ECE4094 - FYP/Code Documents/mic_array_test_15/mic_array_test_15_restored/output_files/cic_filter_quartus.tcl
+//ad.monash.edu/home/User037/rzou3/Documents/2018 S2/ECE4094 - FYP/Code Documents/mic_array_test_15/mic_array_test_15_restored/output_files/cic_filter_tb.v
+//ad.monash.edu/home/User037/rzou3/Documents/2018 S2/ECE4094 - FYP/Code Documents/mic_array_test_15/mic_array_test_15_restored/output_files/stp4_tutorial.stp
+//ad.monash.edu/home/User037/rzou3/Documents/2018 S2/ECE4094 - FYP/Code Documents/mic_array_test_15/mic_array_test_15_restored/output_files/stp4_tutorial_auto_stripped.stp
+//ad.monash.edu/home/User037/rzou3/Documents/2018 S2/ECE4094 - FYP/Code Documents/mic_array_test_15/mic_array_test_15_restored/output_files/stp4_tutorial_cic.stp
+//ad.monash.edu/home/User037/rzou3/Documents/2018 S2/ECE4094 - FYP/Code Documents/mic_array_test_15/mic_array_test_15_restored/signal_timing.v
+//ad.monash.edu/home/User037/rzou3/Documents/2018 S2/ECE4094 - FYP/Code Documents/mic_array_test_15/mic_array_test_15_restored/transmitter_connection.v
+	======= Total: 48 files to archive =======
+
+	================ Status: ===============
+All files archived successfully.
+
+
+******* Archived project restoration attempt on Tue Sep 18 15:30:21 2018
+Source archive file:	//ad.monash.edu/home/User037/rzou3/Documents/2018 S2/ECE4094 - FYP/Code Documents/Quartus/pcb_v1_2018_1/mic_array_test_1.qar
+Archive was extracted into	//ad.monash.edu/home/User037/rzou3/Documents/2018 S2/ECE4094 - FYP/Code Documents/Quartus/pcb_v1_2018_1/mic_array_test_1_restored/
+		 - successfully.
+
+
+******* Archived project restoration attempt on Wed Sep 26 14:46:42 2018
+Source archive file:	//ad.monash.edu/home/User037/rzou3/Documents/2018 S2/ECE4094 - FYP/Code Documents/Quartus/pcb_v1_2018_1/mic_array_test_1.qar
+Archive was extracted into	//ad.monash.edu/home/User037/rzou3/Documents/2018 S2/ECE4094 - FYP/Code Documents/Quartus/pcb_v1_2018_2/
+		 - successfully.

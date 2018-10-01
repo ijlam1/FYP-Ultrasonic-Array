@@ -1,0 +1,121 @@
+Restore Archived Project report for mic_array_test_1
+Tue Sep 18 15:30:23 2018
+Quartus II 64-Bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Full Version
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Restore Archived Project Summary
+  3. Restore Archived Project Messages
+  4. Files Restored
+  5. Files Not Restored
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 1991-2013 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+
+
+
++-------------------------------------------------------------------------+
+; Restore Archived Project Summary                                        ;
++---------------------------------+---------------------------------------+
+; Restore Archived Project Status ; Successful - Tue Sep 18 15:30:23 2018 ;
+; Revision Name                   ; mic_array_test_1                      ;
+; Top-level Entity Name           ; mic_array_test_1                      ;
+; Family                          ; Cyclone II                            ;
++---------------------------------+---------------------------------------+
+
+
++-----------------------------------+
+; Restore Archived Project Messages ;
++-----------------------------------+
+Info: Successfully restored '//ad.monash.edu/home/User037/rzou3/Documents/2018 S2/ECE4094 - FYP/Code Documents/Quartus/pcb_v1_2018_1/mic_array_test_1.qar' into the '//ad.monash.edu/home/User037/rzou3/Documents/2018 S2/ECE4094 - FYP/Code Documents/Quartus/pcb_v1_2018_1/mic_array_test_1_restored/' directory
+Info: Generated report 'mic_array_test_1.restore.rpt'
+Info (23030): Evaluation of Tcl script c:/altera/13.0sp1/quartus/common/tcl/apps/qpm/qar.tcl was successful
+Info: Quartus II 64-Bit Shell was successful. 0 errors, 0 warnings
+    Info: Peak virtual memory: 336 megabytes
+    Info: Processing ended: Tue Sep 18 15:30:24 2018
+    Info: Elapsed time: 00:00:14
+    Info: Total CPU time (on all processors): 00:00:01
+
+
++-------------------------------------------------------------------------------------+
+; Files Restored                                                                      ;
++-------------------------------------------------------------------------------------+
+; File Name                                                                           ;
++-------------------------------------------------------------------------------------+
+; FallingEdge_DFlipFlop.v                                                             ;
+; RisingEdge_DFlipFlop.v                                                              ;
+; assignment_defaults.qdf                                                             ;
+; clk_40khz.v                                                                         ;
+; clk_div.v                                                                           ;
+; clk_div2.v                                                                          ;
+; hex_display_2dig.v                                                                  ;
+; incremental_db/compiled_partitions/mic_array_test_1.db_info                         ;
+; mic_array_test_1.qpf                                                                ;
+; mic_array_test_1.qsf                                                                ;
+; mic_array_test_1.v                                                                  ;
+; mic_cicfilter_connection.v                                                          ;
+; output_files/Chain2.cdf                                                             ;
+; output_files/cic-library/auk_dspip_avalon_streaming_block_sink_cic_130.vhd          ;
+; output_files/cic-library/auk_dspip_avalon_streaming_block_sink_fftfprvs_cic_130.vhd ;
+; output_files/cic-library/auk_dspip_avalon_streaming_block_source_cic_130.vhd        ;
+; output_files/cic-library/auk_dspip_avalon_streaming_controller_cic_130.vhd          ;
+; output_files/cic-library/auk_dspip_avalon_streaming_controller_pe_cic_130.vhd       ;
+; output_files/cic-library/auk_dspip_avalon_streaming_sink_cic_130.vhd                ;
+; output_files/cic-library/auk_dspip_avalon_streaming_source_cic_130.vhd              ;
+; output_files/cic-library/auk_dspip_cic_lib_pkg_cic_130.vhd                          ;
+; output_files/cic-library/auk_dspip_delay_cic_130.vhd                                ;
+; output_files/cic-library/auk_dspip_differentiator_cic_130.vhd                       ;
+; output_files/cic-library/auk_dspip_downsample_cic_130.vhd                           ;
+; output_files/cic-library/auk_dspip_fastadd_cic_130.vhd                              ;
+; output_files/cic-library/auk_dspip_fastaddsub_cic_130.vhd                           ;
+; output_files/cic-library/auk_dspip_integrator_cic_130.vhd                           ;
+; output_files/cic-library/auk_dspip_lib_pkg_cic_130.vhd                              ;
+; output_files/cic-library/auk_dspip_math_pkg_cic_130.vhd                             ;
+; output_files/cic-library/auk_dspip_pipelined_adder_cic_130.vhd                      ;
+; output_files/cic-library/auk_dspip_roundsat_cic_130.vhd                             ;
+; output_files/cic-library/auk_dspip_text_pkg_cic_130.vhd                             ;
+; output_files/cic-library/auk_dspip_upsample_cic_130.vhd                             ;
+; output_files/cic-library/auk_dspip_variable_downsample_cic_130.vhd                  ;
+; output_files/cic_filter.html                                                        ;
+; output_files/cic_filter.qip                                                         ;
+; output_files/cic_filter.v                                                           ;
+; output_files/cic_filter_cic.ocp                                                     ;
+; output_files/cic_filter_cic.vhd                                                     ;
+; output_files/cic_filter_fir_comp_coeff.m                                            ;
+; output_files/cic_filter_nativelink.tcl                                              ;
+; output_files/cic_filter_quartus.tcl                                                 ;
+; output_files/cic_filter_tb.v                                                        ;
+; output_files/stp4_tutorial.stp                                                      ;
+; output_files/stp4_tutorial_auto_stripped.stp                                        ;
+; output_files/stp4_tutorial_cic.stp                                                  ;
+; signal_timing.v                                                                     ;
+; transmitter_connection.v                                                            ;
++-------------------------------------------------------------------------------------+
+
+
++--------------------+
+; Files Not Restored ;
++--------------------+
+; File Name          ;
++--------------------+
+
+

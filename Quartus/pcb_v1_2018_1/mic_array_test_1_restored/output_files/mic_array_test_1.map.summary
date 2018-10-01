@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Mon Oct 01 15:45:51 2018
+Quartus II 64-Bit Version : 13.0.1 Build 232 06/12/2013 SP 1 SJ Full Version
+Revision Name : mic_array_test_1
+Top-level Entity Name : mic_array_test_1
+Family : Cyclone II
+Total logic elements : 11,639
+    Total combinational functions : 5,876
+    Dedicated logic registers : 8,996
+Total registers : 8996
+Total pins : 143
+Total virtual pins : 0
+Total memory bits : 460,800
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 0
